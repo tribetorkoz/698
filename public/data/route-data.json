@@ -1,0 +1,960 @@
+{
+  "metadata": {
+    "title": "مسار مدينة المهن والكفاءات",
+    "city": "كلميم",
+    "region": "كلميم واد نون",
+    "research_date": "2026-11-03",
+    "crs": "EPSG:4326 / WGS84",
+    "official_bus_stop_coordinates": false,
+    "official_route_geometry": false,
+    "coordinate_notice": "علامات الخريطة مواضع مقترحة على حافة الشارع أمام المعالم، مستنتجة من هندسة OSM وعرض طريق مفترض. ليست إحداثيات أرصفة مقاسة أو مواقف معتمدة. بقيت مطابقة الانطلاق والمختبر مرجّحة.",
+    "schedule_notice": "أوقات الرحلات وترتيب المحطات من النص المقدم. لم يُذكر وقت وصول الإياب أو أوقات المرور بالمحطات الوسيطة.",
+    "roadside_notice": "تختلف النقاط بين الذهاب والإياب وفق جهة السير اليمنى. إحداثيات المعالم الأصلية محفوظة منفصلة؛ الإزاحة نحو حافة الشارع تقديرية ولا تثبت موضع بوابة أو جهة وقوف المشغّل.",
+    "display_version": "roadside-frontage-v2",
+    "directional_roadside_positions": true,
+    "roadside_method": "Street-front projection with explicit estimated road widths and direction-specific right-hand-traffic offset. Original landmark positions retained.",
+    "estimated_roadside_point_count": 22,
+    "original_landmark_count": 11,
+    "app_version": "6.1.0",
+    "interface": "gps_no_map_walking_duration_and_bus_time",
+    "geolocation_processing": "client_only_not_stored_or_uploaded",
+    "walking_routing": "Dijkstra shortest length in a conservative cached OSM street graph; not a guarantee of all real-world footpaths or safe crossings.",
+    "stop_display_numbering": "01–11: presentation order in the selected direction, not official stop identifiers; original numbers preserved separately."
+  },
+  "landmarks": [
+    {
+      "id": "ofppt",
+      "name": "مكتب التكوين المهني وإنعاش الشغل",
+      "short": "مكتب التكوين المهني",
+      "latin": "OFPPT / ISTA NTIC Guelmim",
+      "lat": 28.994633,
+      "lon": -10.0682798,
+      "position_type": "published_landmark",
+      "match_status": "needs_confirmation",
+      "status_label": "مطابقة نقطة الانطلاق مرجّحة",
+      "address": "ISTA NTIC — شارع الحسن الثاني، كلميم",
+      "note": "هذه إحداثيات المعهد ISTA NTIC المنشورة، وعنوانه الرسمي بشارع الحسن الثاني. اسم الانطلاق في الجدول عامّ؛ لم أعثر على دليل يثبت أن الحافلة تنطلق من هذه البوابة تحديداً. الموقع ليس نقطة توقف معتمدة.",
+      "sources": [
+        {
+          "title": "سجل المعهد وإحداثياته المنشورة",
+          "url": "https://www.google.com/maps?cid=8177710637119919722",
+          "kind": "public_map"
+        },
+        {
+          "title": "العنوان في موقع OFPPT الرسمي",
+          "url": "https://www.ofppt.ma/fr/etablissements/institut-specialise-de-technologie-appliquee-ntic-guelmim",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "id": "ifni",
+      "name": "صيدلية إفني",
+      "short": "صيدلية إفني",
+      "latin": "Pharmacie Route d’Ifni",
+      "lat": 28.9919037,
+      "lon": -10.0665671,
+      "position_type": "published_landmark",
+      "match_status": "corroborated",
+      "status_label": "موقع متقارب في مصدرين",
+      "address": "415، شارع الحسن الثاني / طريق إفني، كلميم",
+      "note": "طابقتُ صيدلية Route d’Ifni مع الاسم المختصر في الجدول. موقع السجل المنشور تؤيده إحداثيات Yalaho بفارق نحو 11 م، مع تطابق الاسم والعنوان والهاتف. نقطة OSM تحمل الاسم نفسه على بعد نحو 390 م؛ لم أعتمدها. هذا مرجع الصيدلية الأصلي؛ مواضع حافة الشارع المعروضة مشتقة منفصلة وتقديرية.",
+      "alternatives": [
+        {
+          "lat": 28.9897875,
+          "lon": -10.0633678,
+          "label": "نقطة OSM المختلفة — لم تُعتمد",
+          "source": "https://www.openstreetmap.org/node/8409652795"
+        }
+      ],
+      "sources": [
+        {
+          "title": "السجل المنشور للصيدلية",
+          "url": "https://www.google.com/maps?cid=15571421204871574365",
+          "kind": "public_map"
+        },
+        {
+          "title": "Yalaho: عنوان وإحداثيات متقاربة",
+          "url": "https://annuaire.yalaho.ma/etablissement/pharmacie-route-difni/",
+          "kind": "directory"
+        },
+        {
+          "title": "النقطة المختلفة في OSM",
+          "url": "https://www.openstreetmap.org/node/8409652795",
+          "kind": "osm"
+        }
+      ]
+    },
+    {
+      "id": "lab",
+      "name": "مختبر التحليلات الطبية (شارع إفني)",
+      "short": "مختبر شارع إفني",
+      "latin": "Laboratoire Central de Biologie Médicale",
+      "lat": 28.9896006,
+      "lon": -10.0627093,
+      "position_type": "published_landmark",
+      "match_status": "needs_confirmation",
+      "status_label": "مطابقة اسم المختبر مرجّحة",
+      "address": "300–302 bis، شارع الحسن الثاني / Route d’Ifni، كلميم",
+      "note": "وصف الجدول لا يذكر الاسم التجاري. المختبر المركزي هو المطابقة الأقوى لأنه مسجّل صراحة في Route d’Ifni، ويقع بين صيدلية إفني وصيدلية واد نون وفق ترتيب الرحلة. يوجد سجل ثانٍ بالاسم نفسه على بعد نحو 25 م؛ لم أعتبر هذه المطابقة إثباتاً لموضع الوقوف الرسمي.",
+      "alternatives": [
+        {
+          "lat": 28.9894168,
+          "lon": -10.0628588,
+          "label": "سجل ثانٍ للمختبر المركزي في الجوار",
+          "source": "https://www.google.com/maps?cid=2761360239996885131"
+        }
+      ],
+      "sources": [
+        {
+          "title": "المختبر المركزي: عنوان Route d’Ifni وإحداثياته",
+          "url": "https://www.google.com/maps?cid=4725575230154864517",
+          "kind": "public_map"
+        },
+        {
+          "title": "سجل مجاور بالاسم نفسه",
+          "url": "https://www.google.com/maps?cid=2761360239996885131",
+          "kind": "public_map"
+        }
+      ]
+    },
+    {
+      "id": "ouednoun",
+      "name": "صيدلية وادنون",
+      "short": "صيدلية وادنون",
+      "latin": "Pharmacie Oued Noun",
+      "lat": 28.9872685,
+      "lon": -10.0592946,
+      "position_type": "published_landmark",
+      "match_status": "corroborated",
+      "status_label": "مطابقة بين سجلين خرائطيين",
+      "address": "شارع الحسن الثاني، كلميم",
+      "note": "إحداثيات السجل المنشور متقاربة مع نقطة OSM على مستوى المبنى. اختلاف رقم المحل في الأدلة لا يغيّر هذه المطابقة. هذه نقطة المعلم، لا تحديد مستقل لرصيف الصعود.",
+      "sources": [
+        {
+          "title": "سجل الصيدلية المنشور",
+          "url": "https://www.google.com/maps?cid=14623640053479634329",
+          "kind": "public_map"
+        },
+        {
+          "title": "OpenStreetMap: صيدلية واد نون",
+          "url": "https://www.openstreetmap.org/node/8409162381",
+          "kind": "osm"
+        }
+      ]
+    },
+    {
+      "id": "biranzarane",
+      "name": "ساحة بئر انزران",
+      "short": "ساحة بئر انزران",
+      "latin": "Place Bir Anzarane",
+      "lat": 28.9863568,
+      "lon": -10.0574281,
+      "position_type": "derived_square_center",
+      "match_status": "area_reference",
+      "status_label": "مركز الساحة من هندسة الطرق",
+      "address": "التقاء محاور الحسن الثاني ومحمد الخامس ومحمد السادس، وسط كلميم",
+      "note": "النقطة هي مركز المدار في مساحة الساحة، محسوبة من عقد OSM للمعلم way/89345127؛ عناوين الأنشطة المحيطة تؤكد اسم ساحة بئر انزران. لم أستخدم إحداثيات فندق قريب كأنها إحداثيات الساحة. ليست موضع توقف على الرصيف.",
+      "sources": [
+        {
+          "title": "هندسة المدار في OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/89345127",
+          "kind": "osm"
+        },
+        {
+          "title": "عنوان وكالة كلميم: ساحة بئر انزران",
+          "url": "https://www.banques.ma/banque/banque-populaire/guelmim/guelmim",
+          "kind": "directory"
+        },
+        {
+          "title": "الأنشطة المحيطة بالساحة",
+          "url": "https://www.google.com/maps/search/Place+Bir+Anzarane+Guelmim/",
+          "kind": "public_map"
+        }
+      ]
+    },
+    {
+      "id": "dakhla",
+      "name": "مدرسة الداخلة",
+      "short": "مدرسة الداخلة",
+      "latin": "École Dakhla",
+      "lat": 28.9915647,
+      "lon": -10.0540774,
+      "position_type": "published_landmark",
+      "match_status": "published",
+      "status_label": "إحداثيات منشورة للمدرسة",
+      "address": "شارع محمد السادس، كلميم",
+      "note": "سجل المدرسة يحدد هذا الموقع، وصفحتها التعريفية تذكر شارع محمد السادس. النقطة لمرجع المدرسة؛ لا تزعم تحديد البوابة أو الرصيف المقابل للحافلة.",
+      "sources": [
+        {
+          "title": "السجل الخرائطي للمدرسة",
+          "url": "https://www.google.com/maps?cid=4720781364351881819",
+          "kind": "public_map"
+        },
+        {
+          "title": "التعريف بالمدرسة وعنوانها",
+          "url": "https://www.facebook.com/INTAZGA.ELHASSANE/",
+          "kind": "institution"
+        },
+        {
+          "title": "سجل المدرسة في الدليل التربوي",
+          "url": "https://www.etenma.com/ecole.php?code_ecole=31313P04",
+          "kind": "directory"
+        }
+      ]
+    },
+    {
+      "id": "qassam",
+      "name": "ساحة القسم",
+      "short": "ساحة القسم",
+      "latin": "AlQassam Palace / Place du Serment",
+      "lat": 28.9948888,
+      "lon": -10.0536396,
+      "position_type": "published_landmark",
+      "match_status": "published",
+      "status_label": "إحداثيات منشورة للساحة",
+      "address": "ساحة القسم، قرب مباني الولاية، كلميم",
+      "note": "استُخدم سجل الساحة المسمّى AlQassam Palace – ساحة القسم، وليس مكاناً يحمل اسماً شبيهاً خارج كلميم. المرجع داخل مساحة الساحة؛ جهة «قبالة» تحتاج تحديداً ميدانياً.",
+      "sources": [
+        {
+          "title": "سجل ساحة القسم المنشور",
+          "url": "https://www.google.com/maps?cid=17076718089120331846",
+          "kind": "public_map"
+        },
+        {
+          "title": "خبر يطابق ساحة القسم / Place du Serment بكلميم",
+          "url": "https://leseco.ma/maroc/guelmim-plusieurs-projets-de-developpement-lances-et-inaugures-a-loccasion-de-la-fete-du-trone.html",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "id": "court",
+      "name": "المحكمة الابتدائية",
+      "short": "المحكمة الابتدائية",
+      "latin": "Tribunal de Première Instance de Guelmim",
+      "lat": 28.9972767,
+      "lon": -10.0515259,
+      "position_type": "published_landmark",
+      "match_status": "corroborated",
+      "status_label": "مبنى مطابق في مصدرين",
+      "address": "شارع محمد السادس / N1، كلميم",
+      "note": "السجل المنشور يحدد مبنى المحكمة. سجل HERE يضع مرجعاً آخر على مسافة نحو 70 م ضمن نطاق المؤسسة/الواجهة؛ هذا يثبت الموقع العام ولا يثبت أيّ بوابة هي نقطة وقوف الحافلة.",
+      "sources": [
+        {
+          "title": "سجل المحكمة وإحداثياتها",
+          "url": "https://www.google.com/maps?cid=13256071614886183572",
+          "kind": "public_map"
+        },
+        {
+          "title": "HERE: المحكمة الابتدائية بكلميم",
+          "url": "https://wego.here.com/morocco/guelmim/government-or-community-facility/tribunal-de-premi%C3%A8re-instance--504ev0ug-5f6b39168a4f4ac0803cfe15dc4253cb",
+          "kind": "public_map"
+        }
+      ]
+    },
+    {
+      "id": "akdital",
+      "name": "أكديطال",
+      "short": "أكديطال",
+      "latin": "AKDITAL Guelmim — Hôpital Privé Guelmim",
+      "lat": 29.0006654,
+      "lon": -10.0475466,
+      "position_type": "published_landmark",
+      "match_status": "published",
+      "status_label": "سجل المؤسسة مطابق للموقع الرسمي",
+      "address": "المستشفى الخاص كلميم، شارع محمد السادس",
+      "note": "اختير السجل المحدد باسم AKDITAL GUELMIM مع تطابق الموقع الرسمي ورقم المؤسسة. الخريطة المضمّنة في صفحة الاتصال الرسمية تشير إلى مقطع من شارع محمد السادس وليست دبوس مبنى المستشفى؛ لذلك لم أتعامل مع مركزها على أنه بوابة الحافلة.",
+      "sources": [
+        {
+          "title": "سجل المستشفى المحدد",
+          "url": "https://www.google.com/maps?cid=16290448714160104653",
+          "kind": "public_map"
+        },
+        {
+          "title": "موقع المستشفى الرسمي: الاتصال",
+          "url": "https://hopital-prive-guelmim.ma/contact/",
+          "kind": "official"
+        },
+        {
+          "title": "تعريف المجموعة بالمستشفى",
+          "url": "https://akdital.ma/fr/dvteam/hopital-prive-guelmim/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "id": "military",
+      "name": "المستشفى العسكري",
+      "short": "المستشفى العسكري",
+      "latin": "Hôpital Militaire Moulay El Hassan",
+      "lat": 29.0045661,
+      "lon": -10.0470862,
+      "position_type": "published_landmark",
+      "match_status": "corroborated",
+      "status_label": "مطابقة مع نطاق OSM للمستشفى",
+      "address": "المستشفى العسكري مولاي الحسن، كلميم",
+      "note": "يتطابق السجل المنشور مع نطاق المستشفى المسمّى في OpenStreetMap. النقطة مرجع للمؤسسة وليست تعييناً لرصيف «قبالة المستشفى» في الذهاب.",
+      "sources": [
+        {
+          "title": "سجل المستشفى العسكري",
+          "url": "https://www.google.com/maps?cid=8001649129372237148",
+          "kind": "public_map"
+        },
+        {
+          "title": "نطاق المستشفى في OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/1163817675",
+          "kind": "osm"
+        }
+      ]
+    },
+    {
+      "id": "cmc",
+      "name": "مدينة المهن والكفاءات",
+      "short": "مدينة المهن والكفاءات",
+      "latin": "CMC Guelmim — Guelmim Oued Noun",
+      "lat": 29.0337212,
+      "lon": -10.0021113,
+      "position_type": "published_landmark",
+      "match_status": "published",
+      "status_label": "إحداثيات منشورة للمؤسسة",
+      "address": "تجزئة الرك الأبيض، جماعة أباينو، كلميم",
+      "note": "عُثر على سجل المؤسسة المحدد CMC Guelmim، لا مركز مدينة كلميم. عنوان تجزئة الرك الأبيض بجماعة أباينو وارد في موقع CMC الرسمي. النقطة مرجع المجمع؛ لم يُعثر على إحداثيات رسمية لموضع نزول الحافلة أو بوابتها.",
+      "sources": [
+        {
+          "title": "سجل CMC Guelmim وإحداثياته",
+          "url": "https://www.google.com/maps?cid=9459993283583525612",
+          "kind": "public_map"
+        },
+        {
+          "title": "شبكة CMC الرسمية وعنوان كلميم",
+          "url": "https://cmc.ac.ma/fr",
+          "kind": "official"
+        },
+        {
+          "title": "صفحة CMC كلميم الرسمية",
+          "url": "https://cmc.ac.ma/fr/cmc-guelmim-oued-noun",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "routes": {
+    "outbound": {
+      "id": "outbound",
+      "title": "الذهاب",
+      "subtitle": "إلى مدينة المهن والكفاءات",
+      "departure": "07:30",
+      "arrival": "08:00",
+      "duration_minutes": 30,
+      "color": "#087e72",
+      "stops": [
+        {
+          "landmark_id": "ofppt",
+          "label": "مكتب التكوين المهني وإنعاش الشغل",
+          "order": 1,
+          "number": null,
+          "role": "start",
+          "position": {
+            "lat": 28.9948704,
+            "lon": -10.0686525,
+            "anchor_lat": 28.9948346,
+            "anchor_lon": -10.0685964,
+            "road_osm_id": "627465842",
+            "road_name": "الشارع المحاذي للمعهد المرشّح للانطلاق",
+            "road_source": "https://www.openstreetmap.org/way/627465842",
+            "coordinate_role": "estimated_roadside_position_not_official_bus_stop",
+            "official": false,
+            "curb_surveyed": false,
+            "method": "OSM street projection + explicit assumed carriageway half-width + right-hand travel-side offset",
+            "method_ar": "إسقاط على هندسة الشارع ثم إزاحة تقديرية إلى حافته اليمنى وفق اتجاه الرحلة؛ ليست معاينة رصيف أو بوابة.",
+            "side": "right_of_direction_of_travel",
+            "bearing_deg": 216.06,
+            "assumed_paved_width_m": 12,
+            "edge_offset_m": 6.75,
+            "distance_from_landmark_m": 44.8,
+            "alignment_note": "إسقاط على الشارع الثانوي المحاذي للمعهد؛ هوية محطة الانطلاق والبوابة غير محسومتين."
+          }
+        },
+        {
+          "landmark_id": "ifni",
+          "label": "قبالة صيدلية إفني",
+          "order": 2,
+          "number": "02",
+          "role": "stop",
+          "position": {
+            "lat": 28.9918105,
+            "lon": -10.0666438,
+            "anchor_lat": 28.991867,
+            "anchor_lon": -10.0665973,
+            "road_osm_id": "33852624",
+            "road_name": "شارع الحسن الثاني — طريق إفني",
+            "road_source": "https://www.openstreetmap.org/way/33852624",
+            "coordinate_role": "estimated_roadside_position_not_official_bus_stop",
+            "official": false,
+            "curb_surveyed": false,
+            "method": "OSM street projection + explicit assumed carriageway half-width + right-hand travel-side offset",
+            "method_ar": "إسقاط على هندسة الشارع ثم إزاحة تقديرية إلى حافته اليمنى وفق اتجاه الرحلة؛ ليست معاينة رصيف أو بوابة.",
+            "side": "right_of_direction_of_travel",
+            "bearing_deg": 125.73,
+            "assumed_paved_width_m": 14,
+            "edge_offset_m": 7.75,
+            "distance_from_landmark_m": 12.8,
+            "alignment_note": ""
+          }
+        },
+        {
+          "landmark_id": "lab",
+          "label": "مختبر التحليلات الطبية (شارع إفني)",
+          "order": 3,
+          "number": "03",
+          "role": "stop",
+          "position": {
+            "lat": 28.9894644,
+            "lon": -10.0628199,
+            "anchor_lat": 28.9895213,
+            "anchor_lon": -10.0627737,
+            "road_osm_id": "85058155",
+            "road_name": "شارع الحسن الثاني — طريق إفني",
+            "road_source": "https://www.openstreetmap.org/way/85058155",
+            "coordinate_role": "estimated_roadside_position_not_official_bus_stop",
+            "official": false,
+            "curb_surveyed": false,
+            "method": "OSM street projection + explicit assumed carriageway half-width + right-hand travel-side offset",
+            "method_ar": "إسقاط على هندسة الشارع ثم إزاحة تقديرية إلى حافته اليمنى وفق اتجاه الرحلة؛ ليست معاينة رصيف أو بوابة.",
+            "side": "right_of_direction_of_travel",
+            "bearing_deg": 125.38,
+            "assumed_paved_width_m": 14,
+            "edge_offset_m": 7.75,
+            "distance_from_landmark_m": 18.6,
+            "alignment_note": "هوية المختبر المرشّح Central Lab تحتاج تأكيد المستخدم."
+          }
+        },
+        {
+          "landmark_id": "ouednoun",
+          "label": "صيدلية وادنون",
+          "order": 4,
+          "number": "04",
+          "role": "stop",
+          "position": {
+            "lat": 28.987292,
+            "lon": -10.059276,
+            "anchor_lat": 28.9873494,
+            "anchor_lon": -10.0592306,
+            "road_osm_id": "85058155",
+            "road_name": "شارع الحسن الثاني — طريق إفني",
+            "road_source": "https://www.openstreetmap.org/way/85058155",
+            "coordinate_role": "estimated_roadside_position_not_official_bus_stop",
+            "official": false,
+            "curb_surveyed": false,
+            "method": "OSM street projection + explicit assumed carriageway half-width + right-hand travel-side offset",
+            "method_ar": "إسقاط على هندسة الشارع ثم إزاحة تقديرية إلى حافته اليمنى وفق اتجاه الرحلة؛ ليست معاينة رصيف أو بوابة.",
+            "side": "right_of_direction_of_travel",
+            "bearing_deg": 124.68,
+            "assumed_paved_width_m": 14,
+            "edge_offset_m": 7.75,
+            "distance_from_landmark_m": 3.2,
+            "alignment_note": ""
+          }
+        },
+        {
+          "landmark_id": "biranzarane",
+          "label": "ساحة بئر انزران",
+          "order": 5,
+          "number": "05",
+          "role": "stop",
+          "position": {
+            "lat": 28.9866306,
+            "lon": -10.0581979,
+            "anchor_lat": 28.9866872,
+            "anchor_lon": -10.0581514,
+            "road_osm_id": "85058155",
+            "road_name": "مقاربة ساحة بئر انزران من شارع الحسن الثاني",
+            "road_source": "https://www.openstreetmap.org/way/85058155",
+            "coordinate_role": "estimated_roadside_position_not_official_bus_stop",
+            "official": false,
+            "curb_surveyed": false,
+            "method": "OSM street projection + explicit assumed carriageway half-width + right-hand travel-side offset",
+            "method_ar": "إسقاط على هندسة الشارع ثم إزاحة تقديرية إلى حافته اليمنى وفق اتجاه الرحلة؛ ليست معاينة رصيف أو بوابة.",
+            "side": "right_of_direction_of_travel",
+            "bearing_deg": 125.7,
+            "assumed_paved_width_m": 14,
+            "edge_offset_m": 7.75,
+            "distance_from_landmark_m": 80.8,
+            "alignment_note": "نُقل الموضع إلى مقاربة الساحة من جهة شارع الحسن الثاني، بعيدًا عن الجزيرة الدائرية. مسافة 30م عن نهاية القطعة الهندسية احتياط نمذجة لا اعتماد سلامة."
+          }
+        },
+        {
+          "landmark_id": "dakhla",
+          "label": "أمام مدرسة الداخلة",
+          "order": 6,
+          "number": "06",
+          "role": "stop",
+          "position": {
+            "lat": 28.9917997,
+            "lon": -10.0544754,
+            "anchor_lat": 28.9918638,
+            "anchor_lon": -10.0545841,
+            "road_osm_id": "311068656",
+            "road_name": "شارع محمد السادس",
+            "road_source": "https://www.openstreetmap.org/way/311068656",
+            "coordinate_role": "estimated_roadside_position_not_official_bus_stop",
+            "official": false,
+            "curb_surveyed": false,
+            "method": "OSM street projection + explicit assumed carriageway half-width + right-hand travel-side offset",
+            "method_ar": "إسقاط على هندسة الشارع ثم إزاحة تقديرية إلى حافته اليمنى وفق اتجاه الرحلة؛ ليست معاينة رصيف أو بوابة.",
+            "side": "right_of_direction_of_travel",
+            "bearing_deg": 34.02,
+            "assumed_paved_width_m": 24,
+            "edge_offset_m": 12.75,
+            "distance_from_landmark_m": 46.7,
+            "alignment_note": ""
+          }
+        },
+        {
+          "landmark_id": "qassam",
+          "label": "قبالة ساحة القسم",
+          "order": 7,
+          "number": "07",
+          "role": "stop",
+          "position": {
+            "lat": 28.9943418,
+            "lon": -10.0526127,
+            "anchor_lat": 28.9944014,
+            "anchor_lon": -10.0527247,
+            "road_osm_id": "603914630",
+            "road_name": "شارع محمد السادس",
+            "road_source": "https://www.openstreetmap.org/way/603914630",
+            "coordinate_role": "estimated_roadside_position_not_official_bus_stop",
+            "official": false,
+            "curb_surveyed": false,
+            "method": "OSM street projection + explicit assumed carriageway half-width + right-hand travel-side offset",
+            "method_ar": "إسقاط على هندسة الشارع ثم إزاحة تقديرية إلى حافته اليمنى وفق اتجاه الرحلة؛ ليست معاينة رصيف أو بوابة.",
+            "side": "right_of_direction_of_travel",
+            "bearing_deg": 31.35,
+            "assumed_paved_width_m": 24,
+            "edge_offset_m": 12.75,
+            "distance_from_landmark_m": 116.9,
+            "alignment_note": ""
+          }
+        },
+        {
+          "landmark_id": "court",
+          "label": "قبالة المحكمة الابتدائية",
+          "order": 8,
+          "number": "08",
+          "role": "stop",
+          "position": {
+            "lat": 28.9968696,
+            "lon": -10.050787,
+            "anchor_lat": 28.9969307,
+            "anchor_lon": -10.0508979,
+            "road_osm_id": "603914645",
+            "road_name": "شارع محمد السادس",
+            "road_source": "https://www.openstreetmap.org/way/603914645",
+            "coordinate_role": "estimated_roadside_position_not_official_bus_stop",
+            "official": false,
+            "curb_surveyed": false,
+            "method": "OSM street projection + explicit assumed carriageway half-width + right-hand travel-side offset",
+            "method_ar": "إسقاط على هندسة الشارع ثم إزاحة تقديرية إلى حافته اليمنى وفق اتجاه الرحلة؛ ليست معاينة رصيف أو بوابة.",
+            "side": "right_of_direction_of_travel",
+            "bearing_deg": 32.21,
+            "assumed_paved_width_m": 24,
+            "edge_offset_m": 12.75,
+            "distance_from_landmark_m": 84.9,
+            "alignment_note": ""
+          }
+        },
+        {
+          "landmark_id": "akdital",
+          "label": "أكديطال",
+          "order": 9,
+          "number": "09",
+          "role": "stop",
+          "position": {
+            "lat": 29.0008532,
+            "lon": -10.0478975,
+            "anchor_lat": 29.0009131,
+            "anchor_lon": -10.0480093,
+            "road_osm_id": "603914645",
+            "road_name": "شارع محمد السادس",
+            "road_source": "https://www.openstreetmap.org/way/603914645",
+            "coordinate_role": "estimated_roadside_position_not_official_bus_stop",
+            "official": false,
+            "curb_surveyed": false,
+            "method": "OSM street projection + explicit assumed carriageway half-width + right-hand travel-side offset",
+            "method_ar": "إسقاط على هندسة الشارع ثم إزاحة تقديرية إلى حافته اليمنى وفق اتجاه الرحلة؛ ليست معاينة رصيف أو بوابة.",
+            "side": "right_of_direction_of_travel",
+            "bearing_deg": 31.47,
+            "assumed_paved_width_m": 24,
+            "edge_offset_m": 12.75,
+            "distance_from_landmark_m": 40.0,
+            "alignment_note": ""
+          }
+        },
+        {
+          "landmark_id": "military",
+          "label": "قبالة المستشفى العسكري",
+          "order": 10,
+          "number": "10",
+          "role": "stop",
+          "position": {
+            "lat": 29.0038175,
+            "lon": -10.0457505,
+            "anchor_lat": 29.0038551,
+            "anchor_lon": -10.0458176,
+            "road_osm_id": "603914622",
+            "road_name": "شارع محمد السادس — المسلكان المنفصلان",
+            "road_source": "https://www.openstreetmap.org/way/603914622",
+            "coordinate_role": "estimated_roadside_position_not_official_bus_stop",
+            "official": false,
+            "curb_surveyed": false,
+            "method": "OSM street projection + explicit assumed carriageway half-width + right-hand travel-side offset",
+            "method_ar": "إسقاط على هندسة الشارع ثم إزاحة تقديرية إلى حافته اليمنى وفق اتجاه الرحلة؛ ليست معاينة رصيف أو بوابة.",
+            "side": "right_of_direction_of_travel",
+            "bearing_deg": 32.65,
+            "assumed_paved_width_m": 14,
+            "edge_offset_m": 7.75,
+            "distance_from_landmark_m": 154.3,
+            "alignment_note": "اختير الشارع الرئيسي العام أمام محيط المستشفى بدل طريق الخدمة الداخلي؛ مدخل الصعود الفعلي غير متحقق منه."
+          }
+        },
+        {
+          "landmark_id": "cmc",
+          "label": "مدينة المهن والكفاءات",
+          "order": 11,
+          "number": null,
+          "role": "end",
+          "position": {
+            "lat": 29.03308,
+            "lon": -10.0016655,
+            "anchor_lat": 29.0331242,
+            "anchor_lon": -10.0016962,
+            "road_osm_id": "704096100",
+            "road_name": "الشارع المحلي المحاذي لواجهة مدينة المهن والكفاءات",
+            "road_source": "https://www.openstreetmap.org/way/704096100",
+            "coordinate_role": "estimated_roadside_position_not_official_bus_stop",
+            "official": false,
+            "curb_surveyed": false,
+            "method": "OSM street projection + explicit assumed carriageway half-width + right-hand travel-side offset",
+            "method_ar": "إسقاط على هندسة الشارع ثم إزاحة تقديرية إلى حافته اليمنى وفق اتجاه الرحلة؛ ليست معاينة رصيف أو بوابة.",
+            "side": "right_of_direction_of_travel",
+            "bearing_deg": 58.7,
+            "assumed_paved_width_m": 10,
+            "edge_offset_m": 5.75,
+            "distance_from_landmark_m": 83.4,
+            "alignment_note": "اختير الشارع المحلي المحاذي للمؤسسة لا الطريق RR121 البعيد؛ موضع البوابة الفعلي غير متحقق منه."
+          }
+        }
+      ]
+    },
+    "inbound": {
+      "id": "inbound",
+      "title": "الإياب",
+      "subtitle": "إلى مكتب التكوين المهني",
+      "departure": "13:45",
+      "arrival": null,
+      "duration_minutes": null,
+      "color": "#c97541",
+      "stops": [
+        {
+          "landmark_id": "cmc",
+          "label": "مدينة المهن والكفاءات",
+          "order": 1,
+          "number": null,
+          "role": "start",
+          "position": {
+            "lat": 29.0331684,
+            "lon": -10.0017269,
+            "anchor_lat": 29.0331242,
+            "anchor_lon": -10.0016962,
+            "road_osm_id": "704096100",
+            "road_name": "الشارع المحلي المحاذي لواجهة مدينة المهن والكفاءات",
+            "road_source": "https://www.openstreetmap.org/way/704096100",
+            "coordinate_role": "estimated_roadside_position_not_official_bus_stop",
+            "official": false,
+            "curb_surveyed": false,
+            "method": "OSM street projection + explicit assumed carriageway half-width + right-hand travel-side offset",
+            "method_ar": "إسقاط على هندسة الشارع ثم إزاحة تقديرية إلى حافته اليمنى وفق اتجاه الرحلة؛ ليست معاينة رصيف أو بوابة.",
+            "side": "right_of_direction_of_travel",
+            "bearing_deg": 238.7,
+            "assumed_paved_width_m": 10,
+            "edge_offset_m": 5.75,
+            "distance_from_landmark_m": 71.9,
+            "alignment_note": "اختير الشارع المحلي المحاذي للمؤسسة لا الطريق RR121 البعيد؛ موضع البوابة الفعلي غير متحقق منه."
+          }
+        },
+        {
+          "landmark_id": "military",
+          "label": "المستشفى العسكري",
+          "order": 2,
+          "number": "02",
+          "role": "stop",
+          "position": {
+            "lat": 29.0039451,
+            "lon": -10.0459085,
+            "anchor_lat": 29.0039231,
+            "anchor_lon": -10.0458667,
+            "road_osm_id": "603914604",
+            "road_name": "شارع محمد السادس — المسلكان المنفصلان",
+            "road_source": "https://www.openstreetmap.org/way/603914604",
+            "coordinate_role": "estimated_roadside_position_not_official_bus_stop",
+            "official": false,
+            "curb_surveyed": false,
+            "method": "OSM street projection + explicit assumed carriageway half-width + right-hand travel-side offset",
+            "method_ar": "إسقاط على هندسة الشارع ثم إزاحة تقديرية إلى حافته اليمنى وفق اتجاه الرحلة؛ ليست معاينة رصيف أو بوابة.",
+            "side": "right_of_direction_of_travel",
+            "bearing_deg": 211.08,
+            "assumed_paved_width_m": 8,
+            "edge_offset_m": 4.75,
+            "distance_from_landmark_m": 133.7,
+            "alignment_note": "اختير الشارع الرئيسي العام أمام محيط المستشفى بدل طريق الخدمة الداخلي؛ مدخل الصعود الفعلي غير متحقق منه."
+          }
+        },
+        {
+          "landmark_id": "akdital",
+          "label": "قبالة أكديطال",
+          "order": 3,
+          "number": "03",
+          "role": "stop",
+          "position": {
+            "lat": 29.0009729,
+            "lon": -10.0481211,
+            "anchor_lat": 29.0009131,
+            "anchor_lon": -10.0480093,
+            "road_osm_id": "603914645",
+            "road_name": "شارع محمد السادس",
+            "road_source": "https://www.openstreetmap.org/way/603914645",
+            "coordinate_role": "estimated_roadside_position_not_official_bus_stop",
+            "official": false,
+            "curb_surveyed": false,
+            "method": "OSM street projection + explicit assumed carriageway half-width + right-hand travel-side offset",
+            "method_ar": "إسقاط على هندسة الشارع ثم إزاحة تقديرية إلى حافته اليمنى وفق اتجاه الرحلة؛ ليست معاينة رصيف أو بوابة.",
+            "side": "right_of_direction_of_travel",
+            "bearing_deg": 211.47,
+            "assumed_paved_width_m": 24,
+            "edge_offset_m": 12.75,
+            "distance_from_landmark_m": 65.5,
+            "alignment_note": ""
+          }
+        },
+        {
+          "landmark_id": "court",
+          "label": "المحكمة الابتدائية",
+          "order": 4,
+          "number": "04",
+          "role": "stop",
+          "position": {
+            "lat": 28.9969918,
+            "lon": -10.0510089,
+            "anchor_lat": 28.9969307,
+            "anchor_lon": -10.0508979,
+            "road_osm_id": "603914645",
+            "road_name": "شارع محمد السادس",
+            "road_source": "https://www.openstreetmap.org/way/603914645",
+            "coordinate_role": "estimated_roadside_position_not_official_bus_stop",
+            "official": false,
+            "curb_surveyed": false,
+            "method": "OSM street projection + explicit assumed carriageway half-width + right-hand travel-side offset",
+            "method_ar": "إسقاط على هندسة الشارع ثم إزاحة تقديرية إلى حافته اليمنى وفق اتجاه الرحلة؛ ليست معاينة رصيف أو بوابة.",
+            "side": "right_of_direction_of_travel",
+            "bearing_deg": 212.21,
+            "assumed_paved_width_m": 24,
+            "edge_offset_m": 12.75,
+            "distance_from_landmark_m": 59.4,
+            "alignment_note": ""
+          }
+        },
+        {
+          "landmark_id": "qassam",
+          "label": "ساحة القسم",
+          "order": 5,
+          "number": "05",
+          "role": "stop",
+          "position": {
+            "lat": 28.9944611,
+            "lon": -10.0528367,
+            "anchor_lat": 28.9944014,
+            "anchor_lon": -10.0527247,
+            "road_osm_id": "603914630",
+            "road_name": "شارع محمد السادس",
+            "road_source": "https://www.openstreetmap.org/way/603914630",
+            "coordinate_role": "estimated_roadside_position_not_official_bus_stop",
+            "official": false,
+            "curb_surveyed": false,
+            "method": "OSM street projection + explicit assumed carriageway half-width + right-hand travel-side offset",
+            "method_ar": "إسقاط على هندسة الشارع ثم إزاحة تقديرية إلى حافته اليمنى وفق اتجاه الرحلة؛ ليست معاينة رصيف أو بوابة.",
+            "side": "right_of_direction_of_travel",
+            "bearing_deg": 211.35,
+            "assumed_paved_width_m": 24,
+            "edge_offset_m": 12.75,
+            "distance_from_landmark_m": 91.4,
+            "alignment_note": ""
+          }
+        },
+        {
+          "landmark_id": "dakhla",
+          "label": "قبالة مدرسة الداخلة",
+          "order": 6,
+          "number": "06",
+          "role": "stop",
+          "position": {
+            "lat": 28.991928,
+            "lon": -10.0546928,
+            "anchor_lat": 28.9918638,
+            "anchor_lon": -10.0545841,
+            "road_osm_id": "311068656",
+            "road_name": "شارع محمد السادس",
+            "road_source": "https://www.openstreetmap.org/way/311068656",
+            "coordinate_role": "estimated_roadside_position_not_official_bus_stop",
+            "official": false,
+            "curb_surveyed": false,
+            "method": "OSM street projection + explicit assumed carriageway half-width + right-hand travel-side offset",
+            "method_ar": "إسقاط على هندسة الشارع ثم إزاحة تقديرية إلى حافته اليمنى وفق اتجاه الرحلة؛ ليست معاينة رصيف أو بوابة.",
+            "side": "right_of_direction_of_travel",
+            "bearing_deg": 214.02,
+            "assumed_paved_width_m": 24,
+            "edge_offset_m": 12.75,
+            "distance_from_landmark_m": 72.2,
+            "alignment_note": ""
+          }
+        },
+        {
+          "landmark_id": "biranzarane",
+          "label": "ساحة بئر انزران",
+          "order": 7,
+          "number": "07",
+          "role": "stop",
+          "position": {
+            "lat": 28.9867438,
+            "lon": -10.0581049,
+            "anchor_lat": 28.9866872,
+            "anchor_lon": -10.0581514,
+            "road_osm_id": "85058155",
+            "road_name": "مقاربة ساحة بئر انزران من شارع الحسن الثاني",
+            "road_source": "https://www.openstreetmap.org/way/85058155",
+            "coordinate_role": "estimated_roadside_position_not_official_bus_stop",
+            "official": false,
+            "curb_surveyed": false,
+            "method": "OSM street projection + explicit assumed carriageway half-width + right-hand travel-side offset",
+            "method_ar": "إسقاط على هندسة الشارع ثم إزاحة تقديرية إلى حافته اليمنى وفق اتجاه الرحلة؛ ليست معاينة رصيف أو بوابة.",
+            "side": "right_of_direction_of_travel",
+            "bearing_deg": 305.7,
+            "assumed_paved_width_m": 14,
+            "edge_offset_m": 7.75,
+            "distance_from_landmark_m": 78.6,
+            "alignment_note": "نُقل الموضع إلى مقاربة الساحة من جهة شارع الحسن الثاني، بعيدًا عن الجزيرة الدائرية. مسافة 30م عن نهاية القطعة الهندسية احتياط نمذجة لا اعتماد سلامة."
+          }
+        },
+        {
+          "landmark_id": "ouednoun",
+          "label": "صيدلية وادنون",
+          "order": 8,
+          "number": "08",
+          "role": "stop",
+          "position": {
+            "lat": 28.9874067,
+            "lon": -10.0591853,
+            "anchor_lat": 28.9873494,
+            "anchor_lon": -10.0592306,
+            "road_osm_id": "85058155",
+            "road_name": "شارع الحسن الثاني — طريق إفني",
+            "road_source": "https://www.openstreetmap.org/way/85058155",
+            "coordinate_role": "estimated_roadside_position_not_official_bus_stop",
+            "official": false,
+            "curb_surveyed": false,
+            "method": "OSM street projection + explicit assumed carriageway half-width + right-hand travel-side offset",
+            "method_ar": "إسقاط على هندسة الشارع ثم إزاحة تقديرية إلى حافته اليمنى وفق اتجاه الرحلة؛ ليست معاينة رصيف أو بوابة.",
+            "side": "right_of_direction_of_travel",
+            "bearing_deg": 304.68,
+            "assumed_paved_width_m": 14,
+            "edge_offset_m": 7.75,
+            "distance_from_landmark_m": 18.7,
+            "alignment_note": ""
+          }
+        },
+        {
+          "landmark_id": "lab",
+          "label": "مختبر التحليلات الطبية (شارع إفني)",
+          "order": 9,
+          "number": "09",
+          "role": "stop",
+          "position": {
+            "lat": 28.9895781,
+            "lon": -10.0627276,
+            "anchor_lat": 28.9895213,
+            "anchor_lon": -10.0627737,
+            "road_osm_id": "85058155",
+            "road_name": "شارع الحسن الثاني — طريق إفني",
+            "road_source": "https://www.openstreetmap.org/way/85058155",
+            "coordinate_role": "estimated_roadside_position_not_official_bus_stop",
+            "official": false,
+            "curb_surveyed": false,
+            "method": "OSM street projection + explicit assumed carriageway half-width + right-hand travel-side offset",
+            "method_ar": "إسقاط على هندسة الشارع ثم إزاحة تقديرية إلى حافته اليمنى وفق اتجاه الرحلة؛ ليست معاينة رصيف أو بوابة.",
+            "side": "right_of_direction_of_travel",
+            "bearing_deg": 305.38,
+            "assumed_paved_width_m": 14,
+            "edge_offset_m": 7.75,
+            "distance_from_landmark_m": 3.1,
+            "alignment_note": "هوية المختبر المرشّح Central Lab تحتاج تأكيد المستخدم."
+          }
+        },
+        {
+          "landmark_id": "ifni",
+          "label": "صيدلية إفني",
+          "order": 10,
+          "number": "10",
+          "role": "stop",
+          "position": {
+            "lat": 28.9919236,
+            "lon": -10.0665507,
+            "anchor_lat": 28.991867,
+            "anchor_lon": -10.0665973,
+            "road_osm_id": "33852624",
+            "road_name": "شارع الحسن الثاني — طريق إفني",
+            "road_source": "https://www.openstreetmap.org/way/33852624",
+            "coordinate_role": "estimated_roadside_position_not_official_bus_stop",
+            "official": false,
+            "curb_surveyed": false,
+            "method": "OSM street projection + explicit assumed carriageway half-width + right-hand travel-side offset",
+            "method_ar": "إسقاط على هندسة الشارع ثم إزاحة تقديرية إلى حافته اليمنى وفق اتجاه الرحلة؛ ليست معاينة رصيف أو بوابة.",
+            "side": "right_of_direction_of_travel",
+            "bearing_deg": 305.73,
+            "assumed_paved_width_m": 14,
+            "edge_offset_m": 7.75,
+            "distance_from_landmark_m": 2.7,
+            "alignment_note": ""
+          }
+        },
+        {
+          "landmark_id": "ofppt",
+          "label": "مكتب التكوين المهني وإنعاش الشغل",
+          "order": 11,
+          "number": null,
+          "role": "end",
+          "position": {
+            "lat": 28.9947989,
+            "lon": -10.0685403,
+            "anchor_lat": 28.9948346,
+            "anchor_lon": -10.0685964,
+            "road_osm_id": "627465842",
+            "road_name": "الشارع المحاذي للمعهد المرشّح للانطلاق",
+            "road_source": "https://www.openstreetmap.org/way/627465842",
+            "coordinate_role": "estimated_roadside_position_not_official_bus_stop",
+            "official": false,
+            "curb_surveyed": false,
+            "method": "OSM street projection + explicit assumed carriageway half-width + right-hand travel-side offset",
+            "method_ar": "إسقاط على هندسة الشارع ثم إزاحة تقديرية إلى حافته اليمنى وفق اتجاه الرحلة؛ ليست معاينة رصيف أو بوابة.",
+            "side": "right_of_direction_of_travel",
+            "bearing_deg": 36.06,
+            "assumed_paved_width_m": 12,
+            "edge_offset_m": 6.75,
+            "distance_from_landmark_m": 31.3,
+            "alignment_note": "إسقاط على الشارع الثانوي المحاذي للمعهد؛ هوية محطة الانطلاق والبوابة غير محسومتين."
+          }
+        }
+      ]
+    }
+  }
+}
